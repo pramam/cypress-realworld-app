@@ -2,6 +2,12 @@
   "baseUrl": "http://localhost:3000",
   "projectId": "7s5okt",
   "integrationFolder": "cypress/tests",
+  "ignoreTestFiles": [
+    "**/cypress/tests/api/*",
+    "**/cypress/tests/demo/*",
+    "**/cypress/tests/ui-auth-providers",
+    "**/cypress/tests/ui"
+  ],
   "viewportHeight": 1000,
   "viewportWidth": 1280,
   "retries": {
